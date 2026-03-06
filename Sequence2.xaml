@@ -104,7 +104,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Sequence2" sap:VirtualizedContainerService.HintSize="1497,1308" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Sequence2" sap:VirtualizedContainerService.HintSize="1497,1483" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="prdFileLocation" />
       <Variable x:TypeArguments="x:String" Name="PDF_OutputText" />
@@ -120,7 +120,7 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:SelectFile InitialDirectory="{x:Null}" Multiselect="{x:Null}" SelectedFiles="{x:Null}" DisplayName="Browse For File" Filter="PDF|*.pdf" sap:VirtualizedContainerService.HintSize="478,172" sap2010:WorkflowViewState.IdRef="SelectFile_1" SelectedFile="[prdFileLocation]" />
-    <p:DigitizeDocument ApplyOcrMigrated="False" ApplyOcrOnPdf="Auto" DegreeOfParallelism="-1" DetectCheckboxes="True" DisplayName="Digitize Document" DocumentObjectModel="[PDF_OutputDOM]" DocumentPath="[prdFileLocation]" DocumentText="[PDF_OutputText]" ForceApplyOCR="False" sap:VirtualizedContainerService.HintSize="478,334" sap2010:WorkflowViewState.IdRef="DigitizeDocument_1">
+    <p:DigitizeDocument ApplyOcrMigrated="True" ApplyOcrOnPdf="Auto" DegreeOfParallelism="-1" DetectCheckboxes="True" DisplayName="Digitize Document" DocumentObjectModel="[PDF_OutputDOM]" DocumentPath="[prdFileLocation]" DocumentText="[PDF_OutputText]" ForceApplyOCR="False" sap:VirtualizedContainerService.HintSize="478,334" sap2010:WorkflowViewState.IdRef="DigitizeDocument_1">
       <p:DigitizeDocument.OCREngine>
         <ActivityFunc x:TypeArguments="sd:Image, x:String, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))" Argument2="{x:Reference __ReferenceID0}">
           <ActivityFunc.Argument1>
@@ -187,6 +187,7 @@
         </p2:KeywordBasedClassifier>
       </p2:ClassifyDocumentScope.Classifiers>
     </p2:ClassifyDocumentScope>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[If(classificationResults.Length &lt; 1, &quot;No matching words were found on the document to effectively classify it. !&quot;, &quot;Confidence Score:&quot; + classificationResults(0).Confidence.ToString() + Environment.NewLine + &quot;This Document has been classified as: &quot; + classificationResults(0).DocumentTypeId)]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[If(classificationResults.Length &lt; 1, &quot;No matching words were found on the document to effectively classify it. !&quot;, &quot;This Document has been classified as: &quot; + classificationResults(0).DocumentTypeId)]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="478,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[If(classificationResults.Length &lt; 1, &quot;No matching words were found on the document to effectively classify it. !&quot;, &quot;This Document has been classified as: &quot; + classificationResults(0).DocumentTypeId)]" />
   </Sequence>
 </Activity>
