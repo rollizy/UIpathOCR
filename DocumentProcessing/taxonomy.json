@@ -1,0 +1,693 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "Connections": [],
+      "DocumentTypeId": "AlexForbes.Finance.Invoice",
+      "Group": "Alex Forbes",
+      "Category": "Finance",
+      "Name": "Invoice",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AlexForbes.Finance.Invoice.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Invoice",
+          "FieldName": "Invoice",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Customer",
+          "FieldName": "Customer",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Address",
+          "FieldName": "Address",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Phone",
+          "FieldName": "Phone",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.BillTo",
+          "FieldName": "Bill To",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8752f9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.ShipTo",
+          "FieldName": "Ship To",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5f46cf"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Item",
+          "FieldName": "Item",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d222d4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Qyt",
+          "FieldName": "Qyt",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d5dc5c"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Description",
+          "FieldName": "Description",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fda027"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.UnitPrice",
+          "FieldName": "Unit Price",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#5daabb"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Discount",
+          "FieldName": "Discount",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#f327ad"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.SubTotal",
+          "FieldName": "SubTotal",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#22ae46"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "j"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Invoice.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#b97f9a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.05"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": [
+        {
+          "Key": "OCRConfidenceThreshold",
+          "Value": "0.9"
+        },
+        {
+          "Key": "DateDisplayFormat",
+          "Value": "yyyy-MM-dd"
+        },
+        {
+          "Key": "NumberDisplayFormat",
+          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
+        }
+      ]
+    },
+    {
+      "Connections": [],
+      "DocumentTypeId": "AlexForbes.Finance.Payslip",
+      "Group": "Alex Forbes",
+      "Category": "Finance",
+      "Name": "Payslip",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "AlexForbes.Finance.Payslip.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.Earnings",
+          "FieldName": "Earnings",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.Number",
+          "FieldName": "Hours",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.Rate",
+          "FieldName": "Rate",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.YTD",
+          "FieldName": "YTD",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "y"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.GrossPay",
+          "FieldName": "Gross Pay",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#7252f9"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "g"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.TotalDeductions",
+          "FieldName": "Total Deductions",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#0076ce"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        },
+        {
+          "FieldId": "AlexForbes.Finance.Payslip.Netpay",
+          "FieldName": "Netpay",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#a7bd22"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.9"
+            }
+          ],
+          "RuleSet": null,
+          "DefaultValue": "",
+          "DataSource": null
+        }
+      ],
+      "Metadata": []
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Alex Forbes",
+      "Categories": [
+        "Finance"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ],
+  "ReportAsExceptionSettings": {
+    "ExceptionReasonOptions": []
+  }
+}
